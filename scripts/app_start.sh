@@ -1,7 +1,7 @@
 #!/bin/bash
+
+# Change directory to the appropriate location
 cd /home/ec2-user/server/src
+
+# Start the application using npm start
 npm start
-pm2 start npm --name "sanjeebapp" -- start
-pm2 startup
-pm2 save
-pm2 restart all
